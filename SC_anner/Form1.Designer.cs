@@ -40,6 +40,10 @@
             this.lblOutputPath = new System.Windows.Forms.Label();
             this.btnSelectPath = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.lblTDSS = new System.Windows.Forms.Label();
+            this.cbTDSS = new System.Windows.Forms.CheckBox();
+            this.lblHMP = new System.Windows.Forms.Label();
+            this.cbHMP = new System.Windows.Forms.CheckBox();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
             this.SuspendLayout();
@@ -69,6 +73,10 @@
             // 
             // toolStripContainer1.ContentPanel
             // 
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.lblHMP);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.cbHMP);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.lblTDSS);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.cbTDSS);
             this.toolStripContainer1.ContentPanel.Controls.Add(this.lblRKill);
             this.toolStripContainer1.ContentPanel.Controls.Add(this.cbRKill);
             this.toolStripContainer1.ContentPanel.Controls.Add(this.lblMbam);
@@ -84,7 +92,7 @@
             // lblRKill
             // 
             this.lblRKill.AutoSize = true;
-            this.lblRKill.Location = new System.Drawing.Point(66, 35);
+            this.lblRKill.Location = new System.Drawing.Point(66, 36);
             this.lblRKill.Name = "lblRKill";
             this.lblRKill.Size = new System.Drawing.Size(28, 13);
             this.lblRKill.TabIndex = 4;
@@ -93,7 +101,7 @@
             // cbRKill
             // 
             this.cbRKill.AutoSize = true;
-            this.cbRKill.Location = new System.Drawing.Point(24, 34);
+            this.cbRKill.Location = new System.Drawing.Point(24, 36);
             this.cbRKill.Name = "cbRKill";
             this.cbRKill.Size = new System.Drawing.Size(15, 14);
             this.cbRKill.TabIndex = 3;
@@ -102,7 +110,7 @@
             // lblMbam
             // 
             this.lblMbam.AutoSize = true;
-            this.lblMbam.Location = new System.Drawing.Point(66, 14);
+            this.lblMbam.Location = new System.Drawing.Point(66, 82);
             this.lblMbam.Name = "lblMbam";
             this.lblMbam.Size = new System.Drawing.Size(120, 13);
             this.lblMbam.TabIndex = 2;
@@ -111,7 +119,7 @@
             // cbMbam
             // 
             this.cbMbam.AutoSize = true;
-            this.cbMbam.Location = new System.Drawing.Point(24, 14);
+            this.cbMbam.Location = new System.Drawing.Point(24, 82);
             this.cbMbam.Name = "cbMbam";
             this.cbMbam.Size = new System.Drawing.Size(15, 14);
             this.cbMbam.TabIndex = 1;
@@ -156,6 +164,42 @@
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // lblTDSS
+            // 
+            this.lblTDSS.AutoSize = true;
+            this.lblTDSS.Location = new System.Drawing.Point(66, 59);
+            this.lblTDSS.Name = "lblTDSS";
+            this.lblTDSS.Size = new System.Drawing.Size(36, 13);
+            this.lblTDSS.TabIndex = 6;
+            this.lblTDSS.Text = "TDSS";
+            // 
+            // cbTDSS
+            // 
+            this.cbTDSS.AutoSize = true;
+            this.cbTDSS.Location = new System.Drawing.Point(24, 58);
+            this.cbTDSS.Name = "cbTDSS";
+            this.cbTDSS.Size = new System.Drawing.Size(15, 14);
+            this.cbTDSS.TabIndex = 5;
+            this.cbTDSS.UseVisualStyleBackColor = true;
+            // 
+            // lblHMP
+            // 
+            this.lblHMP.AutoSize = true;
+            this.lblHMP.Location = new System.Drawing.Point(66, 105);
+            this.lblHMP.Name = "lblHMP";
+            this.lblHMP.Size = new System.Drawing.Size(59, 13);
+            this.lblHMP.TabIndex = 8;
+            this.lblHMP.Text = "Hitman Pro";
+            // 
+            // cbHMP
+            // 
+            this.cbHMP.AutoSize = true;
+            this.cbHMP.Location = new System.Drawing.Point(24, 105);
+            this.cbHMP.Name = "cbHMP";
+            this.cbHMP.Size = new System.Drawing.Size(15, 14);
+            this.cbHMP.TabIndex = 7;
+            this.cbHMP.UseVisualStyleBackColor = true;
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -192,6 +236,10 @@
         private System.Windows.Forms.Label lblOutputPath;
         private System.Windows.Forms.Button btnSelectPath;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Label lblHMP;
+        private System.Windows.Forms.CheckBox cbHMP;
+        private System.Windows.Forms.Label lblTDSS;
+        private System.Windows.Forms.CheckBox cbTDSS;
     }
 }
 
